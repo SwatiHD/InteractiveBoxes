@@ -1,4 +1,3 @@
-
   const boxes = document.querySelectorAll('.box');
 
   boxes.forEach(boxitem => {
@@ -12,5 +11,3 @@
       boxitem.classList.add('expanded');
     });
   });
-
-
