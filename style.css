@@ -2,7 +2,7 @@
   height: 520px;
   width: 380px;
   margin: auto;
-  margin-top: -50px;
+  margin-top: 10px;
 }
 
 .divide {
@@ -23,12 +23,7 @@
   font-size: 12px;
   font-weight: bold;
 }
-h4 {
-  color: rgb(52, 129, 64);
-  font-weight: bold;
-  font-size: 12px;
-  margin: auto;
-}
+
 .box.expanded {
   margin-bottom: 20px;
   border-bottom: -200px;
@@ -163,3 +158,36 @@ input[type="radio"] {
   padding-bottom: 10px;
   text-align: center;
 }
+
+h4::before, h4::after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid rgb(31, 30, 30);
+  margin: auto;
+}
+.line-heading {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin: 30px 0;
+      color: green;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .line-heading::before,
+    .line-heading::after {
+      content: "";
+      flex: 1;
+      border-bottom: 1px solid #bababa;
+    }
+
+    .line-heading::before {
+      margin-right: 15px;
+    }
+
+    .line-heading::after {
+      margin-left: 15px;
+    }
+
+  
