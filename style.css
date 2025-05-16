@@ -1,5 +1,5 @@
 .container{
- height: 500px;
+ height: 520px;
  width: 380px;
  margin: auto;
  margin-top: -50px;
@@ -133,4 +133,40 @@ accent-color: green;
 .large {
   font-size: 20px;
   padding: 30px;
+}
+
+.para{
+  font-size: 14px;
+  color: green;
+  display: flex;
+}
+.extradata{
+  display: flex;
+}
+.para2{
+  font-size: 14px;
+  margin-left: 140px;
+}
+.para3{
+  font-size: 14px;
+  font-weight: bold;
+ 
+}
+
+.footer{
+  font-style: italic;
+  font-size: 10px;
+  text-align: right;
+}
+
+.btn{
+  color: #e3f5e9;
+  background-color: green;
+  border: 2px solid green;
+  height: 40px;
+  width: 380px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+
 }
