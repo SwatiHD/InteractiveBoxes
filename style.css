@@ -1,6 +1,6 @@
 .container{
  height: 500px;
- width: 500px;
+ width: 400px;
  margin: auto;
  margin-top: -50px;
 }
@@ -35,7 +35,7 @@ h4{
 .extradiv{
     color: green;
     font-size: 10px;
-    margin-left: 314px;
+    margin-left: 210px;
     font-weight: bold;
 }
 
@@ -50,20 +50,36 @@ body {
 }
 
 .box {
-  background-color: #ccc;
+  background-color: hsl(120, 14%, 99%);
   padding: 20px;
+  margin-bottom: 20px;
   text-align: center;
   transition: all 0.3s ease;
   cursor: pointer;
   position: relative;
   text-align: left;
+  border: 2px solid rgb(123, 126, 123);
+  border-radius: 5px;
 }
 
 .box.expanded {
-  background-color: #eee;
+  background-color: #e3f5e9;
   height: 200px;
+  border-color: green;
+  
 }
 
+ input[type="radio"] {
+accent-color: green;
+ }
+  .sections {
+    display: none;
+    margin-top: 10px;
+  }
+
+  .box.active .sections {
+    display: block;
+  }
 .options {
   display: none;
   margin-top: 20px;
