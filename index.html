@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Boxes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h4>Bundle & Save</h4>
+<div class="container">
+ <div class="box active" id="box1">
+   <label class="labelname">
+    <input class="one" type="radio" checked/>
+    <span class="divide">1 Pair</span><br/>
+    <span class="divide1">DKK 195.00 <span class="divide2">50% OFF</span></span>
+    </label>
+    <div class="options">
+      <label>Color:
+        <select onchange="changeColor(this, 'box1')">
+          <option value="">Select</option>
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select>
+      </label>
+      <label>Size:
+        <select onchange="changeSize(this, 'box1')">
+          <option value="">Select</option>
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+      </label>
+    </div>
+  </div>
+
+  <div class="box active" id="box2">
+   <label class="labelname2">
+    <input class="two" type="radio" checked/>
+    <span class="divide">2 Pair</span><span class="extradiv">Most Popular</span><br/>
+    <span class="divide1">DKK 345.00 <span class="divide2 newdivide">40% OFF</span></span>
+    </label>
+    <div class="options">
+      <label>Color:
+        <select onchange="changeColor(this, 'box2')">
+          <option value="">Select</option>
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select>
+      </label>
+      <label>Size:
+        <select onchange="changeSize(this, 'box2')">
+          <option value="">Select</option>
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+      </label>
+    </div>
+  </div>
+
+  <div class="box active" id="box3">
+   <label class="labelname3">
+    <input class="three" type="radio" checked/>
+    <span class="divide">3 Pair</span><br/>
+    <span class="divide1">DKK 345.00 <span class="divide2">40% OFF</span></span>
+    </label>
+    <div class="options">
+      <label>Color:
+        <select onchange="changeColor(this, 'box3')">
+          <option value="">Select</option>
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select>
+      </label>
+      <label>Size:
+        <select onchange="changeSize(this, 'box3')">
+          <option value="">Select</option>
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+      </label>
+    </div>
+  </div>
+</div>
+ <script src="script.js"></script>
+</body>
+</html>
