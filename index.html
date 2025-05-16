@@ -15,22 +15,42 @@
     <span class="divide1">DKK 195.00 <span class="divide2">50% OFF</span></span>
     </label>
     <div class="options">
-      <label>Color:
-        <select onchange="changeColor(this, 'box1')">
-          <option value="">Select</option>
-          <option value="red">Red</option>
-          <option value="green">Green</option>
-          <option value="blue">Blue</option>
-        </select>
-      </label>
-      <label>Size:
-        <select onchange="changeSize(this, 'box1')">
-          <option value="">Select</option>
+       <label class="sizesection">Size
+        <select class="selectbox" onchange="changeSize(this, 'box1')">
+          <option value="">S</option>
           <option value="small">Small</option>
           <option value="medium">Medium</option>
           <option value="large">Large</option>
         </select>
       </label>
+      <label class="colorsection">Color
+        <select class="selectbox" onchange="changeColor(this, 'box1')">
+          <option value="">color</option>
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select>
+      </label>
+     
+      <div class="sec">
+        <label class="sizesection">
+        <select  class="selectbox" onchange="changeSize(this, 'box1')">
+          <option value="">S</option>
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+          </select>
+        </label>
+      <label class="colorsection">
+       <select class="selectbox" onchange="changeColor(this, 'box1')">
+          <option value="">color</option>
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select>
+        </label>
+       
+       </div>
     </div>
   </div>
 

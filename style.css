@@ -1,33 +1,42 @@
 .container{
  height: 500px;
- width: 400px;
+ width: 380px;
  margin: auto;
  margin-top: -50px;
 }
 
 .divide{
     margin-left: 10px;
+    font-size: 14px;
 }
 
 .divide1{
      display: block;
     margin-left: 20px;
+    font-weight: bold;
 }
 
 .divide2{
     display: block;
     text-align: right;
     margin-top: -40px;
+    font-size: 12px;
+    font-weight: bold;
 }
 h4{
     color: rgb(52, 129, 64);
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
     margin: auto;
-}
 
+}
+.box.expanded{
+  margin-bottom: 20px;
+  border-bottom:  -200px;
+}
 .divide1{
     padding-left: 16px;
+    font-size: 12px;
 }
 .newdivide{
     margin-top: -15px;
@@ -35,7 +44,7 @@ h4{
 .extradiv{
     color: green;
     font-size: 10px;
-    margin-left: 210px;
+    margin-left: 200px;
     font-weight: bold;
 }
 
@@ -88,7 +97,29 @@ accent-color: green;
 .box.expanded .options {
   display: block;
 }
+.sec{
+  display: block;
 
+}
+.colorsection{
+ display: inline-block;
+ font-size: 10px;
+ margin-left: 20px;
+ margin-top: 10px;
+ 
+}
+
+.sizesection{
+ display: inline-block;
+ font-size: 10px;
+  margin-left: 35px;
+  margin-top: 10px;
+ 
+}
+.selectbox{
+  display: block;
+  margin-top: 10px;
+}
 .small {
   font-size: 12px;
   padding: 10px;
